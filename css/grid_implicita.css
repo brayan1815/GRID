@@ -1,0 +1,11 @@
+@import url(style.css);
+
+.grid-implicita
+{
+  display: grid;
+  grid-template-columns: repeat(4,200px);
+  grid-template-rows: repeat(4,200px);
+  grid-auto-columns: 400px;
+  grid-auto-rows: 200px;
+  grid-auto-flow: column;
+}

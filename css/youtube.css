@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.youtube{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 90%;
+
+  grid-template-areas:
+  'youtube__barrasuperior youtube__barrasuperior'
+  'youtube__barraderecha youtube__contenido';
+}
+
+.youtube__barrasuperior{
+  background-color: red;
+  grid-area: youtube__barrasuperior;
+}
+
+.youtube__contenido{
+  background-color: blue;
+  grid-area: youtube__contenido;
+}
+
+.youtube__barraderecha{
+  background-color: violet;
+  grid-area: youtube__barraderecha;
+}
+
+.youtube__contenido{
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  grid-template-rows: repeat(4,4fr);
+
+}
