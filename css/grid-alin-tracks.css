@@ -1,0 +1,14 @@
+@import url(style.css);
+
+.grid-tracks{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2,200px);
+  
+  justify-content: end;
+  justify-content: start;
+  justify-content: center;
+  
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
